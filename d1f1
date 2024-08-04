@@ -1,0 +1,14 @@
+#!/bin/bash
+u_n=admin
+pawd=testyantra123
+echo " enter username "
+read username
+echo " enter password "
+read password
+if (( $u_n == $username && pawd == $password ))
+then
+echo " authentication sucessfull "
+else
+	echo " authentication fail "
+fi
+
